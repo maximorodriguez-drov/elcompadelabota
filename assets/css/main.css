@@ -294,9 +294,7 @@ header #menu-btn:hover{
     margin-top: 7rem;
 }
 
-.home .content h2{
-    font-size: 2.5rem;
-    font-weight: 400;
+.home .content h2{    font-weight: 400;
     color: var(--grey);
 }
 
@@ -309,7 +307,7 @@ header #menu-btn:hover{
 
 .home .content h1 span{
     /*color: var(--blue);*/
-    color :#000000
+    color :#000000 
 
 }
 /*cambiar color de palabras autocompletadas*/
