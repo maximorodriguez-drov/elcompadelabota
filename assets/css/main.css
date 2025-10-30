@@ -232,7 +232,8 @@ header #menu-btn:hover{
 /*--------------------- 4- Home Area CSS (Start) ---------------------*/
 .home{
     padding: 0rem 5%;
-    background-color: var(--red);
+    /* background-color: var(--red); */
+    background-color: black;
     min-height: 100vh;
 }
 
@@ -249,7 +250,8 @@ header #menu-btn:hover{
     align-items: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    gap: 4rem;
+    gap: 4rem
+
 }
 
 .home .image{
@@ -336,6 +338,7 @@ header #menu-btn:hover{
 
 /*--------------------- 5- About Area CSS (Start) ---------------------*/
 .about .box-container{
+    background-color:black;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -554,6 +557,7 @@ header #menu-btn:hover{
 }
 
 .service .box-container{
+    background-color:black;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -654,6 +658,7 @@ header #menu-btn:hover{
 }
 
 .portfolio .box-container{
+    background-color:black;
     display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
