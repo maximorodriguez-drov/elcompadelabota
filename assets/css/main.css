@@ -233,7 +233,11 @@ header #menu-btn:hover{
 .home{
     padding: 0rem 5%;
     /* background-color: var(--red); */
-    background-color: black;
+    /*background-color: black;*/
+    background-image: url("../images/Home/DS21171.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     min-height: 100vh;
 }
 
@@ -304,10 +308,11 @@ header #menu-btn:hover{
 }
 
 .home .content h1 span{
-    color: var(--blue);
+    /*color: var(--blue);*/
+    color :#000000
 
 }
-
+/*cambiar color de palabras autocompletadas*/
 .home .content p{
     font-size: 1.7rem;
     font-weight: 400;
